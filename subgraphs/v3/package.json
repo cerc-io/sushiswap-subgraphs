@@ -18,8 +18,8 @@
   },
   "devDependencies": {
     "abi": "workspace:*",
-    "@graphprotocol/graph-cli": "^0.70.0",
-    "@graphprotocol/graph-ts": "^0.27.0",
+    "@cerc-io/graph-cli": "0.32.0-watcher-ts-0.1.2",
+    "@graphprotocol/graph-ts": "npm:@cerc-io/graph-ts@0.27.0-watcher-ts-0.1.2",
     "assemblyscript": "^0.19.20",
     "matchstick-as": "0.5.0",
     "wabt": "1.0.24"
