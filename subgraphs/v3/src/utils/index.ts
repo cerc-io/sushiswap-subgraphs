@@ -22,21 +22,7 @@ export function safeDiv(amount0: BigDecimal, amount1: BigDecimal): BigDecimal {
 }
 
 export function bigDecimalExponated(value: BigDecimal, power: BigInt): BigDecimal {
-  if (power.equals(ZERO_BI)) {
-    return ONE_BD
-  }
-  let negativePower = power.lt(ZERO_BI)
-  let result = ZERO_BD.plus(value)
-  let powerAbs = power.abs()
-  for (let i = ONE_BI; i.lt(powerAbs); i = i.plus(ONE_BI)) {
-    result = result.times(value)
-  }
-
-  if (negativePower) {
-    result = safeDiv(ONE_BD, result)
-  }
-
-  return result
+  return value.pow(power.toBigDecimal());
 }
 
 export function tokenAmountToDecimal(tokenAmount: BigInt, exchangeDecimals: BigInt): BigDecimal {
