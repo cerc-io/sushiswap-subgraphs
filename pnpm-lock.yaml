@@ -212,8 +212,8 @@ importers:
         specifier: 0.32.0-watcher-ts-0.1.2
         version: 0.32.0-watcher-ts-0.1.2
       '@graphprotocol/graph-ts':
-        specifier: npm:@cerc-io/graph-ts@0.27.0-watcher-ts-0.1.2
-        version: /@cerc-io/graph-ts@0.27.0-watcher-ts-0.1.2
+        specifier: npm:@cerc-io/graph-ts@0.27.0-watcher-ts-0.1.3
+        version: /@cerc-io/graph-ts@0.27.0-watcher-ts-0.1.3
       abi:
         specifier: workspace:*
         version: link:../../packages/abi
@@ -314,8 +314,8 @@ packages:
       - utf-8-validate
     dev: true
 
-  /@cerc-io/graph-ts@0.27.0-watcher-ts-0.1.2:
-    resolution: {integrity: sha512-tYEWXrbMXNhONqwe329KsS2UcCcYJQ22RhSMJUg+8zsA1RtkLVJR6imVFihsacbBLR8QDMCoVK/FACVguV+Iqw==, tarball: https://git.vdb.to/api/packages/cerc-io/npm/%40cerc-io%2Fgraph-ts/-/0.27.0-watcher-ts-0.1.2/graph-ts-0.27.0-watcher-ts-0.1.2.tgz}
+  /@cerc-io/graph-ts@0.27.0-watcher-ts-0.1.3:
+    resolution: {integrity: sha512-Ipyrx0Ltn/uTaPEgRYUk9MDlfQctoLegBHHmtbijsBJzj6EKNgnUg9plc3TTQS0tubwsjpBnRNi3Ohixsuj+Bw==, tarball: https://git.vdb.to/api/packages/cerc-io/npm/%40cerc-io%2Fgraph-ts/-/0.27.0-watcher-ts-0.1.3/graph-ts-0.27.0-watcher-ts-0.1.3.tgz}
     dependencies:
       assemblyscript: 0.19.10
     dev: true
