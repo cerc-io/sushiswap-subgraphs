@@ -209,8 +209,8 @@ importers:
   subgraphs/v3:
     devDependencies:
       '@cerc-io/graph-cli':
-        specifier: 0.32.0-watcher-ts-0.1.2
-        version: 0.32.0-watcher-ts-0.1.2
+        specifier: 0.32.0-watcher-ts-0.1.3
+        version: 0.32.0-watcher-ts-0.1.3
       '@graphprotocol/graph-ts':
         specifier: npm:@cerc-io/graph-ts@0.27.0-watcher-ts-0.1.3
         version: /@cerc-io/graph-ts@0.27.0-watcher-ts-0.1.3
@@ -278,8 +278,8 @@ packages:
       regenerator-runtime: 0.14.0
     dev: true
 
-  /@cerc-io/graph-cli@0.32.0-watcher-ts-0.1.2:
-    resolution: {integrity: sha512-UCvgFBThvP+aaox3Icp17T/vBsSopQdZfdsLYIN/LIsyoRg4NcWdMdYb67pV5OpalLki5RSEhuJLpNJoNEoK4g==, tarball: https://git.vdb.to/api/packages/cerc-io/npm/%40cerc-io%2Fgraph-cli/-/0.32.0-watcher-ts-0.1.2/graph-cli-0.32.0-watcher-ts-0.1.2.tgz}
+  /@cerc-io/graph-cli@0.32.0-watcher-ts-0.1.3:
+    resolution: {integrity: sha512-21W1qGIn8DWKovmQRSs4zPYQJ4gOiAZ4tY4UnCJrOExdZuYgt0ts/gV3RBI+K8L876iDpzgMsW9Get0IhPSxfg==, tarball: https://git.vdb.to/api/packages/cerc-io/npm/%40cerc-io%2Fgraph-cli/-/0.32.0-watcher-ts-0.1.3/graph-cli-0.32.0-watcher-ts-0.1.3.tgz}
     hasBin: true
     dependencies:
       assemblyscript: 0.19.10
