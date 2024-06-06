@@ -32,27 +32,6 @@ importers:
         specifier: ^0.27.0
         version: 0.27.0
 
-  subgraphs/auction-maker:
-    devDependencies:
-      '@graphprotocol/graph-cli':
-        specifier: ^0.60.0
-        version: 0.60.0(@types/node@20.3.2)(node-fetch@2.6.11)(typescript@5.2.2)
-      '@graphprotocol/graph-ts':
-        specifier: ^0.27.0
-        version: 0.27.0
-      abi:
-        specifier: workspace:*
-        version: link:../../packages/abi
-      assemblyscript:
-        specifier: ^0.19.20
-        version: 0.19.23
-      matchstick-as:
-        specifier: 0.5.0
-        version: 0.5.0
-      wabt:
-        specifier: 1.0.24
-        version: 1.0.24
-
   subgraphs/bentobox:
     devDependencies:
       '@graphprotocol/graph-cli':
@@ -89,21 +68,6 @@ importers:
         specifier: 1.0.24
         version: 1.0.24
 
-  subgraphs/candles:
-    devDependencies:
-      '@graphprotocol/graph-cli':
-        specifier: 0.49.0
-        version: 0.49.0(@types/node@20.3.2)(node-fetch@2.6.11)(typescript@5.2.2)
-      '@graphprotocol/graph-ts':
-        specifier: 0.27.0
-        version: 0.27.0
-      '@sushiswap/core':
-        specifier: ^1.4.2
-        version: 1.4.2
-      matchstick-as:
-        specifier: 0.5.0
-        version: 0.5.0
-
   subgraphs/furo:
     devDependencies:
       '@graphprotocol/graph-cli':
@@ -124,24 +88,6 @@ importers:
       wabt:
         specifier: 1.0.24
         version: 1.0.24
-
-  subgraphs/kashi:
-    devDependencies:
-      '@graphprotocol/graph-cli':
-        specifier: ^0.60.0
-        version: 0.60.0(@types/node@20.3.2)(node-fetch@2.6.11)(typescript@5.2.2)
-      '@graphprotocol/graph-ts':
-        specifier: ^0.27.0
-        version: 0.27.0
-      abi:
-        specifier: workspace:*
-        version: link:../../packages/abi
-      matchstick-as:
-        specifier: 0.5.0
-        version: 0.5.0
-      math:
-        specifier: workspace:*
-        version: link:../../packages/math
 
   subgraphs/minichef:
     devDependencies:
@@ -164,30 +110,6 @@ importers:
         specifier: 1.0.24
         version: 1.0.24
 
-  subgraphs/miso:
-    devDependencies:
-      '@graphprotocol/graph-cli':
-        specifier: ^0.60.0
-        version: 0.60.0(@types/node@20.3.2)(node-fetch@2.6.11)(typescript@5.2.2)
-      '@graphprotocol/graph-ts':
-        specifier: ^0.27.0
-        version: 0.27.0
-      '@sushiswap/miso':
-        specifier: 1.0.0-canary.48
-        version: 1.0.0-canary.48
-      abi:
-        specifier: workspace:*
-        version: link:../../packages/abi
-      assemblyscript:
-        specifier: ^0.19.20
-        version: 0.19.23
-      matchstick-as:
-        specifier: 0.5.0
-        version: 0.5.0
-      wabt:
-        specifier: 1.0.24
-        version: 1.0.24
-
   subgraphs/router:
     devDependencies:
       '@graphprotocol/graph-cli':
@@ -196,30 +118,6 @@ importers:
       '@graphprotocol/graph-ts':
         specifier: ^0.27.0
         version: 0.27.0
-      abi:
-        specifier: workspace:*
-        version: link:../../packages/abi
-      assemblyscript:
-        specifier: ^0.19.20
-        version: 0.19.23
-      matchstick-as:
-        specifier: 0.5.0
-        version: 0.5.0
-      wabt:
-        specifier: 1.0.24
-        version: 1.0.24
-
-  subgraphs/staking:
-    devDependencies:
-      '@graphprotocol/graph-cli':
-        specifier: ^0.60.0
-        version: 0.60.0(@types/node@20.3.2)(node-fetch@2.6.11)(typescript@5.2.2)
-      '@graphprotocol/graph-ts':
-        specifier: ^0.27.0
-        version: 0.27.0
-      '@sushiswap/core':
-        specifier: 1.4.2
-        version: 1.4.2
       abi:
         specifier: workspace:*
         version: link:../../packages/abi
@@ -266,50 +164,14 @@ importers:
         specifier: 0.5.0
         version: 0.5.0
 
-  subgraphs/sushiswap-minimal:
-    devDependencies:
-      '@graphprotocol/graph-cli':
-        specifier: ^0.60.0
-        version: 0.60.0(@types/node@20.3.2)(node-fetch@2.6.11)(typescript@5.2.2)
-      '@graphprotocol/graph-ts':
-        specifier: ^0.27.0
-        version: 0.27.0
-      abi:
-        specifier: workspace:*
-        version: link:../../packages/abi
-      matchstick-as:
-        specifier: 0.5.0
-        version: 0.5.0
-
-  subgraphs/trident:
-    devDependencies:
-      '@graphprotocol/graph-cli':
-        specifier: ^0.60.0
-        version: 0.60.0(@types/node@20.3.2)(node-fetch@2.6.11)(typescript@5.2.2)
-      '@graphprotocol/graph-ts':
-        specifier: ^0.27.0
-        version: 0.27.0
-      abi:
-        specifier: workspace:*
-        version: link:../../packages/abi
-      assemblyscript:
-        specifier: ^0.19.20
-        version: 0.19.23
-      matchstick-as:
-        specifier: 0.5.0
-        version: 0.5.0
-      wabt:
-        specifier: 1.0.24
-        version: 1.0.24
-
   subgraphs/v2:
     devDependencies:
-      '@graphprotocol/graph-cli':
-        specifier: ^0.60.0
-        version: 0.60.0(@types/node@20.3.2)(node-fetch@2.6.11)(typescript@5.2.2)
+      '@cerc-io/graph-cli':
+        specifier: 0.32.0-watcher-ts-0.1.3
+        version: 0.32.0-watcher-ts-0.1.3
       '@graphprotocol/graph-ts':
-        specifier: ^0.27.0
-        version: 0.27.0
+        specifier: npm:@cerc-io/graph-ts@0.27.0-watcher-ts-0.1.3
+        version: /@cerc-io/graph-ts@0.27.0-watcher-ts-0.1.3
       abi:
         specifier: workspace:*
         version: link:../../packages/abi
@@ -365,24 +227,6 @@ importers:
         specifier: 1.0.24
         version: 1.0.24
 
-  subgraphs/xswap:
-    devDependencies:
-      '@graphprotocol/graph-cli':
-        specifier: ^0.60.0
-        version: 0.60.0(@types/node@20.3.2)(node-fetch@2.6.11)(typescript@5.2.2)
-      '@graphprotocol/graph-ts':
-        specifier: ^0.27.0
-        version: 0.27.0
-      abi:
-        specifier: workspace:*
-        version: link:../../packages/abi
-      matchstick-as:
-        specifier: 0.5.0
-        version: 0.5.0
-      wabt:
-        specifier: 1.0.24
-        version: 1.0.24
-
 packages:
 
   /@babel/code-frame@7.22.5:
@@ -415,6 +259,42 @@ packages:
 
   /@cerc-io/graph-cli@0.32.0-watcher-ts-0.1.2:
     resolution: {integrity: sha512-UCvgFBThvP+aaox3Icp17T/vBsSopQdZfdsLYIN/LIsyoRg4NcWdMdYb67pV5OpalLki5RSEhuJLpNJoNEoK4g==, tarball: https://git.vdb.to/api/packages/cerc-io/npm/%40cerc-io%2Fgraph-cli/-/0.32.0-watcher-ts-0.1.2/graph-cli-0.32.0-watcher-ts-0.1.2.tgz}
+    hasBin: true
+    dependencies:
+      assemblyscript: 0.19.10
+      binary-install-raw: 0.0.13(debug@4.3.1)
+      chalk: 3.0.0
+      chokidar: 3.5.1
+      debug: 4.3.1
+      docker-compose: 0.23.4
+      dockerode: 2.5.8
+      fs-extra: 9.0.0
+      glob: 7.1.6
+      gluegun: github.com/edgeandnode/gluegun/b34b9003d7bf556836da41b57ef36eb21570620a(debug@4.3.1)
+      graphql: 15.5.0
+      immutable: 3.8.2
+      ipfs-http-client: 40.0.0
+      jayson: 3.6.6
+      js-yaml: 3.13.1
+      node-fetch: 2.6.0
+      pkginfo: 0.4.1
+      prettier: 1.19.1
+      request: 2.88.2
+      semver: 7.3.5
+      sync-request: 6.1.0
+      tmp-promise: 3.0.2
+      web3-eth-abi: 1.7.0
+      which: 2.0.2
+      yaml: 1.9.2
+    transitivePeerDependencies:
+      - bufferutil
+      - encoding
+      - supports-color
+      - utf-8-validate
+    dev: true
+
+  /@cerc-io/graph-cli@0.32.0-watcher-ts-0.1.3:
+    resolution: {integrity: sha512-21W1qGIn8DWKovmQRSs4zPYQJ4gOiAZ4tY4UnCJrOExdZuYgt0ts/gV3RBI+K8L876iDpzgMsW9Get0IhPSxfg==, tarball: https://git.vdb.to/api/packages/cerc-io/npm/%40cerc-io%2Fgraph-cli/-/0.32.0-watcher-ts-0.1.3/graph-cli-0.32.0-watcher-ts-0.1.3.tgz}
     hasBin: true
     dependencies:
       assemblyscript: 0.19.10
@@ -631,49 +511,6 @@ packages:
       js-yaml: 4.1.0
     dev: true
 
-  /@graphprotocol/graph-cli@0.49.0(@types/node@20.3.2)(node-fetch@2.6.11)(typescript@5.2.2):
-    resolution: {integrity: sha512-UZsMTcTZN/EFT/1t8Z253ZtEZXqYQIWKbSox+Q6Fu4bzkK7LlKtoKKrOhxqMfSe2jewFKkCQkVWVC4tXoN+sVQ==}
-    engines: {node: '>=14'}
-    hasBin: true
-    dependencies:
-      '@float-capital/float-subgraph-uncrashable': 0.0.0-internal-testing.5
-      '@oclif/core': 2.8.4(@types/node@20.3.2)(typescript@5.2.2)
-      '@whatwg-node/fetch': 0.8.8
-      assemblyscript: 0.19.23
-      binary-install-raw: 0.0.13(debug@4.3.4)
-      chalk: 3.0.0
-      chokidar: 3.5.3
-      debug: 4.3.4(supports-color@8.1.1)
-      docker-compose: 0.23.19
-      dockerode: 2.5.8
-      fs-extra: 9.1.0
-      glob: 9.3.5
-      gluegun: github.com/edgeandnode/gluegun/b34b9003d7bf556836da41b57ef36eb21570620a(debug@4.3.4)
-      graphql: 15.5.0
-      immutable: 4.2.1
-      ipfs-http-client: 55.0.0(node-fetch@2.6.11)
-      jayson: 4.0.0
-      js-yaml: 3.14.1
-      prettier: 1.19.1
-      request: 2.88.2
-      semver: 7.4.0
-      sync-request: 6.1.0
-      tmp-promise: 3.0.3
-      web3-eth-abi: 1.7.0
-      which: 2.0.2
-      yaml: 1.10.2
-    transitivePeerDependencies:
-      - '@swc/core'
-      - '@swc/wasm'
-      - '@types/node'
-      - bufferutil
-      - encoding
-      - node-fetch
-      - supports-color
-      - typescript
-      - utf-8-validate
-    dev: true
-
   /@graphprotocol/graph-cli@0.60.0(@types/node@20.3.2)(node-fetch@2.6.11)(typescript@5.2.2):
     resolution: {integrity: sha512-8tGaQJ0EzAPtkDXCAijFGoVdJXM+pKFlGxjiU31TdG5bS4cIUoSB6yWojVsFFod0yETAwf+giel/0/8sudYsDw==}
     engines: {node: '>=14'}
@@ -805,46 +642,6 @@ packages:
       object-treeify: 1.1.33
       password-prompt: 1.1.2
       slice-ansi: 4.0.0
-      string-width: 4.2.3
-      strip-ansi: 6.0.1
-      supports-color: 8.1.1
-      supports-hyperlinks: 2.3.0
-      ts-node: 10.9.1(@types/node@20.3.2)(typescript@5.2.2)
-      tslib: 2.6.0
-      widest-line: 3.1.0
-      wordwrap: 1.0.0
-      wrap-ansi: 7.0.0
-    transitivePeerDependencies:
-      - '@swc/core'
-      - '@swc/wasm'
-      - '@types/node'
-      - typescript
-    dev: true
-
-  /@oclif/core@2.8.4(@types/node@20.3.2)(typescript@5.2.2):
-    resolution: {integrity: sha512-VlFDhoAJ1RDwcpDF46wAlciWTIryapMUViACttY9GwX6Ci6Lud1awe/pC3k4jad5472XshnPQV4bHAl4a/yxpA==}
-    engines: {node: '>=14.0.0'}
-    dependencies:
-      '@types/cli-progress': 3.11.0
-      ansi-escapes: 4.3.2
-      ansi-styles: 4.3.0
-      cardinal: 2.1.1
-      chalk: 4.1.2
-      clean-stack: 3.0.1
-      cli-progress: 3.12.0
-      debug: 4.3.4(supports-color@8.1.1)
-      ejs: 3.1.9
-      fs-extra: 9.1.0
-      get-package-type: 0.1.0
-      globby: 11.1.0
-      hyperlinker: 1.0.0
-      indent-string: 4.0.0
-      is-wsl: 2.2.0
-      js-yaml: 3.14.1
-      natural-orderby: 2.0.3
-      object-treeify: 1.1.33
-      password-prompt: 1.1.2
-      semver: 7.4.0
       string-width: 4.2.3
       strip-ansi: 6.0.1
       supports-color: 8.1.1
@@ -1001,14 +798,6 @@ packages:
 
   /@rescript/std@9.0.0:
     resolution: {integrity: sha512-zGzFsgtZ44mgL4Xef2gOy1hrRVdrs9mcxCOOKZrIPsmbZW14yTkaF591GXxpQvjXiHtgZ/iA9qLyWH6oSReIxQ==}
-    dev: true
-
-  /@sushiswap/core@1.4.2:
-    resolution: {integrity: sha512-Khd2i6Bob9uk7dCgVkhUioEoxRP28m6aj25MegAHvnJyxZPVzZDhxSkeL6wdv5MeAp2DwHkYqUq03KDfVTTP4Q==}
-    dev: true
-
-  /@sushiswap/miso@1.0.0-canary.48:
-    resolution: {integrity: sha512-D7qlWtvH2VjXbptb3hVQgrRYTKZCNFQUrsjjhIeUZIiyzJnrLMiUybwKVQdWPHICXLm6f1WXiy988VpqpE0TYQ==}
     dev: true
 
   /@sushiswap/prettier-config@0.1.0(prettier@2.6.2):
@@ -1211,7 +1000,7 @@ packages:
     dev: true
 
   /ansi-colors@3.2.4:
-    resolution: {integrity: sha512-hHUXGagefjN2iRrID63xckIvotOXOojhQKWIPUZ4mNUZ9nLZW+7FMNoE1lOkEhNWYsx/7ysGIuJYCiMAA9FnrA==}
+    resolution: {integrity: sha512-hHUXGagefjN2iRrID63xckIvotOXOojhQKWIPUZ4mNUZ9nLZW+7FMNoE1lOkEhNWYsx/7ysGIuJYCiMAA9FnrA==, tarball: https://registry.npmjs.org/ansi-colors/-/ansi-colors-3.2.4.tgz}
     engines: {node: '>=6'}
     dev: true
 
@@ -1233,7 +1022,7 @@ packages:
     dev: true
 
   /ansi-regex@3.0.1:
-    resolution: {integrity: sha512-+O9Jct8wf++lXxxFc4hc8LsjaSq0HFzzL7cVsw8pRDIPdjKD2mT4ytDZlLuSBZ4cLKZFXIrMGO7DbQCtMJJMKw==}
+    resolution: {integrity: sha512-+O9Jct8wf++lXxxFc4hc8LsjaSq0HFzzL7cVsw8pRDIPdjKD2mT4ytDZlLuSBZ4cLKZFXIrMGO7DbQCtMJJMKw==, tarball: https://registry.npmjs.org/ansi-regex/-/ansi-regex-3.0.1.tgz}
     engines: {node: '>=4'}
     dev: true
 
@@ -1285,18 +1074,9 @@ packages:
     dev: true
 
   /apisauce@1.1.5(debug@4.3.1):
-    resolution: {integrity: sha512-gKC8qb/bDJsPsnEXLZnXJ7gVx7dh87CEVNeIwv1dvaffnXoh5GHwac5pWR1P2broLiVj/fqFMQvLDDt/RhjiqA==}
+    resolution: {integrity: sha512-gKC8qb/bDJsPsnEXLZnXJ7gVx7dh87CEVNeIwv1dvaffnXoh5GHwac5pWR1P2broLiVj/fqFMQvLDDt/RhjiqA==, tarball: https://registry.npmjs.org/apisauce/-/apisauce-1.1.5.tgz}
     dependencies:
       axios: 0.21.4(debug@4.3.1)
-      ramda: 0.25.0
-    transitivePeerDependencies:
-      - debug
-    dev: true
-
-  /apisauce@1.1.5(debug@4.3.4):
-    resolution: {integrity: sha512-gKC8qb/bDJsPsnEXLZnXJ7gVx7dh87CEVNeIwv1dvaffnXoh5GHwac5pWR1P2broLiVj/fqFMQvLDDt/RhjiqA==}
-    dependencies:
-      axios: 0.21.4(debug@4.3.4)
       ramda: 0.25.0
     transitivePeerDependencies:
       - debug
@@ -1683,7 +1463,7 @@ packages:
     dev: true
 
   /camelcase@5.3.1:
-    resolution: {integrity: sha512-L28STB170nwWS63UjtlEOE3dldQApaJXZkOI1uMFfzf3rRuPegHaHesyee+YxQ+W6SvRDQV6UrdOdRiR153wJg==}
+    resolution: {integrity: sha512-L28STB170nwWS63UjtlEOE3dldQApaJXZkOI1uMFfzf3rRuPegHaHesyee+YxQ+W6SvRDQV6UrdOdRiR153wJg==, tarball: https://registry.npmjs.org/camelcase/-/camelcase-5.3.1.tgz}
     engines: {node: '>=6'}
     dev: true
 
@@ -1830,7 +1610,7 @@ packages:
     dev: true
 
   /cli-table3@0.5.1:
-    resolution: {integrity: sha512-7Qg2Jrep1S/+Q3EceiZtQcDPWxhAvBw+ERf1162v4sikJrvojMHFqXt8QIVha8UlH9rgU0BeWPytZ9/TzYqlUw==}
+    resolution: {integrity: sha512-7Qg2Jrep1S/+Q3EceiZtQcDPWxhAvBw+ERf1162v4sikJrvojMHFqXt8QIVha8UlH9rgU0BeWPytZ9/TzYqlUw==, tarball: https://registry.npmjs.org/cli-table3/-/cli-table3-0.5.1.tgz}
     engines: {node: '>=6'}
     dependencies:
       object-assign: 4.1.1
@@ -1876,7 +1656,7 @@ packages:
     dev: true
 
   /colors@1.3.3:
-    resolution: {integrity: sha512-mmGt/1pZqYRjMxB1axhTo16/snVZ5krrKkcmMeVKxzECMMXoCgnvTPp10QgHfcbQZw8Dq2jMNG6je4JlWU0gWg==}
+    resolution: {integrity: sha512-mmGt/1pZqYRjMxB1axhTo16/snVZ5krrKkcmMeVKxzECMMXoCgnvTPp10QgHfcbQZw8Dq2jMNG6je4JlWU0gWg==, tarball: https://registry.npmjs.org/colors/-/colors-1.3.3.tgz}
     engines: {node: '>=0.1.90'}
     dev: true
 
@@ -1924,7 +1704,7 @@ packages:
     dev: true
 
   /cosmiconfig@6.0.0:
-    resolution: {integrity: sha512-xb3ZL6+L8b9JLLCx3ZdoZy4+2ECphCMo2PwqgP1tlfVq6M6YReyzBJtvWWtbDSpNr9hn96pkCiZqUcFEc+54Qg==}
+    resolution: {integrity: sha512-xb3ZL6+L8b9JLLCx3ZdoZy4+2ECphCMo2PwqgP1tlfVq6M6YReyzBJtvWWtbDSpNr9hn96pkCiZqUcFEc+54Qg==, tarball: https://registry.npmjs.org/cosmiconfig/-/cosmiconfig-6.0.0.tgz}
     engines: {node: '>=8'}
     dependencies:
       '@types/parse-json': 4.0.0
@@ -2034,7 +1814,7 @@ packages:
     dev: true
 
   /decamelize@1.2.0:
-    resolution: {integrity: sha512-z2S+W9X73hAUUki+N+9Za2lBlun89zigOyGrsax+KUQ6wKW4ZoWpEYBkGhQjwAjjDCkWxhY0VKEhk8wzY7F5cA==}
+    resolution: {integrity: sha512-z2S+W9X73hAUUki+N+9Za2lBlun89zigOyGrsax+KUQ6wKW4ZoWpEYBkGhQjwAjjDCkWxhY0VKEhk8wzY7F5cA==, tarball: https://registry.npmjs.org/decamelize/-/decamelize-1.2.0.tgz}
     engines: {node: '>=0.10.0'}
     dev: true
 
@@ -2133,7 +1913,7 @@ packages:
     dev: true
 
   /ejs@2.7.4:
-    resolution: {integrity: sha512-7vmuyh5+kuUyJKePhQfRQBhXV5Ce+RnaeeQArKu1EAMpL3WbgMt5WG6uQZpEVvYSSsxMXRKOewtDk9RaTKXRlA==}
+    resolution: {integrity: sha512-7vmuyh5+kuUyJKePhQfRQBhXV5Ce+RnaeeQArKu1EAMpL3WbgMt5WG6uQZpEVvYSSsxMXRKOewtDk9RaTKXRlA==, tarball: https://registry.npmjs.org/ejs/-/ejs-2.7.4.tgz}
     engines: {node: '>=0.10.0'}
     requiresBuild: true
     dev: true
@@ -2190,7 +1970,7 @@ packages:
     dev: true
 
   /enquirer@2.3.4:
-    resolution: {integrity: sha512-pkYrrDZumL2VS6VBGDhqbajCM2xpkUNLuKfGPjfKaSIBKYopQbqEFyrOkRMIb2HDR/rO1kGhEt/5twBwtzKBXw==}
+    resolution: {integrity: sha512-pkYrrDZumL2VS6VBGDhqbajCM2xpkUNLuKfGPjfKaSIBKYopQbqEFyrOkRMIb2HDR/rO1kGhEt/5twBwtzKBXw==, tarball: https://registry.npmjs.org/enquirer/-/enquirer-2.3.4.tgz}
     engines: {node: '>=8.6'}
     dependencies:
       ansi-colors: 3.2.4
@@ -2301,7 +2081,7 @@ packages:
     dev: true
 
   /execa@3.4.0:
-    resolution: {integrity: sha512-r9vdGQk4bmCuK1yKQu1KTwcT2zwfWdbdaXfCtAh+5nU/4fSX+JAb7vZGvI5naJrQlvONrEB20jeruESI69530g==}
+    resolution: {integrity: sha512-r9vdGQk4bmCuK1yKQu1KTwcT2zwfWdbdaXfCtAh+5nU/4fSX+JAb7vZGvI5naJrQlvONrEB20jeruESI69530g==, tarball: https://registry.npmjs.org/execa/-/execa-3.4.0.tgz}
     engines: {node: ^8.12.0 || >=9.7.0}
     dependencies:
       cross-spawn: 7.0.3
@@ -2482,7 +2262,7 @@ packages:
     dev: true
 
   /fs-extra@8.1.0:
-    resolution: {integrity: sha512-yhlQgA6mnOJUKOsRUFsgJdQCvkKhcz8tlZG5HBQfReYZy46OwLcY+Zia0mtdHsOo9y/hP+CxMN0TU9QxoOtG4g==}
+    resolution: {integrity: sha512-yhlQgA6mnOJUKOsRUFsgJdQCvkKhcz8tlZG5HBQfReYZy46OwLcY+Zia0mtdHsOo9y/hP+CxMN0TU9QxoOtG4g==, tarball: https://registry.npmjs.org/fs-extra/-/fs-extra-8.1.0.tgz}
     engines: {node: '>=6 <7 || >=8'}
     dependencies:
       graceful-fs: 4.2.11
@@ -2511,7 +2291,7 @@ packages:
     dev: true
 
   /fs-jetpack@2.4.0:
-    resolution: {integrity: sha512-S/o9Dd7K9A7gicVU32eT8G0kHcmSu0rCVdP79P0MWInKFb8XpTc8Syhoo66k9no+HDshtlh4pUJTws8X+8fdFQ==}
+    resolution: {integrity: sha512-S/o9Dd7K9A7gicVU32eT8G0kHcmSu0rCVdP79P0MWInKFb8XpTc8Syhoo66k9no+HDshtlh4pUJTws8X+8fdFQ==, tarball: https://registry.npmjs.org/fs-jetpack/-/fs-jetpack-2.4.0.tgz}
     engines: {node: '>=4'}
     dependencies:
       minimatch: 3.1.2
@@ -2537,7 +2317,7 @@ packages:
     dev: true
 
   /fsevents@2.3.2:
-    resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
+    resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==, tarball: https://registry.npmjs.org/fsevents/-/fsevents-2.3.2.tgz}
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
     requiresBuild: true
@@ -2572,7 +2352,7 @@ packages:
     dev: true
 
   /get-stream@5.2.0:
-    resolution: {integrity: sha512-nBF+F1rAZVCu/p7rjzgA+Yb4lfYXrpl7a6VmJrU8wF9I1CKvP/QwPNZHnOlwbTkY6dvtFIzFMSyQXbLoTQPRpA==}
+    resolution: {integrity: sha512-nBF+F1rAZVCu/p7rjzgA+Yb4lfYXrpl7a6VmJrU8wF9I1CKvP/QwPNZHnOlwbTkY6dvtFIzFMSyQXbLoTQPRpA==, tarball: https://registry.npmjs.org/get-stream/-/get-stream-5.2.0.tgz}
     engines: {node: '>=8'}
     dependencies:
       pump: 3.0.0
@@ -2691,7 +2471,7 @@ packages:
     dev: true
 
   /graphql@15.5.0:
-    resolution: {integrity: sha512-OmaM7y0kaK31NKG31q4YbD2beNYa6jBBKtMFT6gLYJljHLJr42IqJ8KX08u3Li/0ifzTU5HjmoOOrwa5BRLeDA==}
+    resolution: {integrity: sha512-OmaM7y0kaK31NKG31q4YbD2beNYa6jBBKtMFT6gLYJljHLJr42IqJ8KX08u3Li/0ifzTU5HjmoOOrwa5BRLeDA==, tarball: https://registry.npmjs.org/graphql/-/graphql-15.5.0.tgz}
     engines: {node: '>= 10.x'}
     dev: true
 
@@ -2795,7 +2575,7 @@ packages:
     dev: true
 
   /human-signals@1.1.1:
-    resolution: {integrity: sha512-SEQu7vl8KjNL2eoGBLF3+wAjpsNfA9XMlXAYj/3EdaNfAlxKthD1xjEQfGOUhllCGGJVNY34bRr6lPINhNjyZw==}
+    resolution: {integrity: sha512-SEQu7vl8KjNL2eoGBLF3+wAjpsNfA9XMlXAYj/3EdaNfAlxKthD1xjEQfGOUhllCGGJVNY34bRr6lPINhNjyZw==, tarball: https://registry.npmjs.org/human-signals/-/human-signals-1.1.1.tgz}
     engines: {node: '>=8.12.0'}
     dev: true
 
@@ -3128,7 +2908,7 @@ packages:
     dev: true
 
   /is-fullwidth-code-point@2.0.0:
-    resolution: {integrity: sha512-VHskAKYM8RfSFXwee5t5cbN5PZeq1Wrh6qd5bkyiXIf6UQcN6w/A0eXM9r6t8d+GYOh+o6ZhiEnb88LN/Y8m2w==}
+    resolution: {integrity: sha512-VHskAKYM8RfSFXwee5t5cbN5PZeq1Wrh6qd5bkyiXIf6UQcN6w/A0eXM9r6t8d+GYOh+o6ZhiEnb88LN/Y8m2w==, tarball: https://registry.npmjs.org/is-fullwidth-code-point/-/is-fullwidth-code-point-2.0.0.tgz}
     engines: {node: '>=4'}
     dev: true
 
@@ -3469,7 +3249,7 @@ packages:
     dev: true
 
   /jsonfile@4.0.0:
-    resolution: {integrity: sha512-m6F1R3z8jjlf2imQHS2Qez5sjKWQzbuuhuJ/FKYFRZvPE3PuHcSMVZzfsLhGVOkfd20obL5SWEBew5ShlquNxg==}
+    resolution: {integrity: sha512-m6F1R3z8jjlf2imQHS2Qez5sjKWQzbuuhuJ/FKYFRZvPE3PuHcSMVZzfsLhGVOkfd20obL5SWEBew5ShlquNxg==, tarball: https://registry.npmjs.org/jsonfile/-/jsonfile-4.0.0.tgz}
     optionalDependencies:
       graceful-fs: 4.2.11
     dev: true
@@ -3997,7 +3777,7 @@ packages:
     dev: true
 
   /mute-stream@0.0.8:
-    resolution: {integrity: sha512-nnbWWOkoWyUsTjKrhgD0dcz22mdkSnpYqbEjIm2nhwhuxlSkpywJmBo8h0ZqJdkp73mb90SssHkN4rsRaBAfAA==}
+    resolution: {integrity: sha512-nnbWWOkoWyUsTjKrhgD0dcz22mdkSnpYqbEjIm2nhwhuxlSkpywJmBo8h0ZqJdkp73mb90SssHkN4rsRaBAfAA==, tarball: https://registry.npmjs.org/mute-stream/-/mute-stream-0.0.8.tgz}
     dev: true
 
   /nan@2.18.0:
@@ -4148,7 +3928,7 @@ packages:
     dev: true
 
   /ora@4.1.1:
-    resolution: {integrity: sha512-sjYP8QyVWBpBZWD6Vr1M/KwknSw6kJOz41tvGMlwWeClHBtYKTbHMki1PsLZnxKpXMPbTKv9b3pjQu3REib96A==}
+    resolution: {integrity: sha512-sjYP8QyVWBpBZWD6Vr1M/KwknSw6kJOz41tvGMlwWeClHBtYKTbHMki1PsLZnxKpXMPbTKv9b3pjQu3REib96A==, tarball: https://registry.npmjs.org/ora/-/ora-4.1.1.tgz}
     engines: {node: '>=8'}
     dependencies:
       chalk: 3.0.0
@@ -4174,7 +3954,7 @@ packages:
     dev: true
 
   /p-finally@2.0.1:
-    resolution: {integrity: sha512-vpm09aKwq6H9phqRQzecoDpD8TmVyGw70qmWlyq5onxY7tqyTTFVvxMykxQSQKILBSFlbXpypIw2T1Ml7+DDtw==}
+    resolution: {integrity: sha512-vpm09aKwq6H9phqRQzecoDpD8TmVyGw70qmWlyq5onxY7tqyTTFVvxMykxQSQKILBSFlbXpypIw2T1Ml7+DDtw==, tarball: https://registry.npmjs.org/p-finally/-/p-finally-2.0.1.tgz}
     engines: {node: '>=8'}
     dev: true
 
@@ -4391,7 +4171,7 @@ packages:
     dev: true
 
   /pump@3.0.0:
-    resolution: {integrity: sha512-LwZy+p3SFs1Pytd/jYct4wpv49HiYCqd9Rlc5ZVdk0V+8Yzv6jR5Blk3TRmPL1ft69TxP0IMZGJ+WPFU2BFhww==}
+    resolution: {integrity: sha512-LwZy+p3SFs1Pytd/jYct4wpv49HiYCqd9Rlc5ZVdk0V+8Yzv6jR5Blk3TRmPL1ft69TxP0IMZGJ+WPFU2BFhww==, tarball: https://registry.npmjs.org/pump/-/pump-3.0.0.tgz}
     dependencies:
       end-of-stream: 1.4.4
       once: 1.4.0
@@ -4434,15 +4214,15 @@ packages:
     dev: true
 
   /ramda@0.24.1:
-    resolution: {integrity: sha512-HEm619G8PaZMfkqCa23qiOe7r3R0brPu7ZgOsgKUsnvLhd0qhc/vTjkUovomgPWa5ECBa08fJZixth9LaoBo5w==}
+    resolution: {integrity: sha512-HEm619G8PaZMfkqCa23qiOe7r3R0brPu7ZgOsgKUsnvLhd0qhc/vTjkUovomgPWa5ECBa08fJZixth9LaoBo5w==, tarball: https://registry.npmjs.org/ramda/-/ramda-0.24.1.tgz}
     dev: true
 
   /ramda@0.25.0:
-    resolution: {integrity: sha512-GXpfrYVPwx3K7RQ6aYT8KPS8XViSXUVJT1ONhoKPE9VAleW42YE+U+8VEyGWt41EnEQW7gwecYJriTI0pKoecQ==}
+    resolution: {integrity: sha512-GXpfrYVPwx3K7RQ6aYT8KPS8XViSXUVJT1ONhoKPE9VAleW42YE+U+8VEyGWt41EnEQW7gwecYJriTI0pKoecQ==, tarball: https://registry.npmjs.org/ramda/-/ramda-0.25.0.tgz}
     dev: true
 
   /ramdasauce@2.1.3:
-    resolution: {integrity: sha512-Ml3CPim4SKwmg5g9UI77lnRSeKr/kQw7YhQ6rfdMcBYy6DMlwmkEwQqjygJ3OhxPR+NfFfpjKl3Tf8GXckaqqg==}
+    resolution: {integrity: sha512-Ml3CPim4SKwmg5g9UI77lnRSeKr/kQw7YhQ6rfdMcBYy6DMlwmkEwQqjygJ3OhxPR+NfFfpjKl3Tf8GXckaqqg==, tarball: https://registry.npmjs.org/ramdasauce/-/ramdasauce-2.1.3.tgz}
     dependencies:
       ramda: 0.24.1
     dev: true
@@ -4799,7 +4579,7 @@ packages:
     dev: true
 
   /string-width@2.1.1:
-    resolution: {integrity: sha512-nOqH59deCq9SRHlxq1Aw85Jnt4w6KvLKqWVik6oA9ZklXLNIOlqg4F2yrT1MVaTjAqvVwdfeZ7w7aCvJD7ugkw==}
+    resolution: {integrity: sha512-nOqH59deCq9SRHlxq1Aw85Jnt4w6KvLKqWVik6oA9ZklXLNIOlqg4F2yrT1MVaTjAqvVwdfeZ7w7aCvJD7ugkw==, tarball: https://registry.npmjs.org/string-width/-/string-width-2.1.1.tgz}
     engines: {node: '>=4'}
     dependencies:
       is-fullwidth-code-point: 2.0.0
@@ -4832,7 +4612,7 @@ packages:
     dev: true
 
   /strip-ansi@4.0.0:
-    resolution: {integrity: sha512-4XaJ2zQdCzROZDivEVIDPkcQn8LMFSa8kj8Gxb/Lnwzv9A8VctNZ+lfivC/sV3ivW8ElJTERXZoPBRrZKkNKow==}
+    resolution: {integrity: sha512-4XaJ2zQdCzROZDivEVIDPkcQn8LMFSa8kj8Gxb/Lnwzv9A8VctNZ+lfivC/sV3ivW8ElJTERXZoPBRrZKkNKow==, tarball: https://registry.npmjs.org/strip-ansi/-/strip-ansi-4.0.0.tgz}
     engines: {node: '>=4'}
     dependencies:
       ansi-regex: 3.0.1
@@ -5055,7 +4835,7 @@ packages:
     dev: true
 
   /turbo-darwin-64@1.1.10:
-    resolution: {integrity: sha512-MY/1mHg+tS/GaZKG805e5JSGNS8A4j/M2GzLwCbNL+lwGMfneNASri1vAd80ss3T2MgMsfsFMVyIQJljqpDBvA==}
+    resolution: {integrity: sha512-MY/1mHg+tS/GaZKG805e5JSGNS8A4j/M2GzLwCbNL+lwGMfneNASri1vAd80ss3T2MgMsfsFMVyIQJljqpDBvA==, tarball: https://registry.npmjs.org/turbo-darwin-64/-/turbo-darwin-64-1.1.10.tgz}
     cpu: [x64]
     os: [darwin]
     requiresBuild: true
@@ -5063,7 +4843,7 @@ packages:
     optional: true
 
   /turbo-darwin-arm64@1.1.10:
-    resolution: {integrity: sha512-gMPLseYqGKwdy6UHVWKMLA433ZTfQRV5FlYz5n4XVtx30cF6ajOqq12ykeCUUX/lZkH4Uq5zT0tNEYpUhUw7mA==}
+    resolution: {integrity: sha512-gMPLseYqGKwdy6UHVWKMLA433ZTfQRV5FlYz5n4XVtx30cF6ajOqq12ykeCUUX/lZkH4Uq5zT0tNEYpUhUw7mA==, tarball: https://registry.npmjs.org/turbo-darwin-arm64/-/turbo-darwin-arm64-1.1.10.tgz}
     cpu: [arm64]
     os: [darwin]
     requiresBuild: true
@@ -5071,7 +4851,7 @@ packages:
     optional: true
 
   /turbo-freebsd-64@1.1.10:
-    resolution: {integrity: sha512-wra27mvakr5ZFceQnCCSR8gHQtKV8Q0EhtzO/wEdyhEssw0wVaNtMHUOOdvFN0HLmjQmmLZgmfZbURc83UDuZQ==}
+    resolution: {integrity: sha512-wra27mvakr5ZFceQnCCSR8gHQtKV8Q0EhtzO/wEdyhEssw0wVaNtMHUOOdvFN0HLmjQmmLZgmfZbURc83UDuZQ==, tarball: https://registry.npmjs.org/turbo-freebsd-64/-/turbo-freebsd-64-1.1.10.tgz}
     cpu: [x64]
     os: [freebsd]
     requiresBuild: true
@@ -5079,7 +4859,7 @@ packages:
     optional: true
 
   /turbo-freebsd-arm64@1.1.10:
-    resolution: {integrity: sha512-J2I76pTwtrEVjHt1+zWY/s/Y0YIGdWHBIWOjhCXi1E8dav98oGw+WUaiFwzAkcksAblOhNpDL3qhnrnm7kHqrg==}
+    resolution: {integrity: sha512-J2I76pTwtrEVjHt1+zWY/s/Y0YIGdWHBIWOjhCXi1E8dav98oGw+WUaiFwzAkcksAblOhNpDL3qhnrnm7kHqrg==, tarball: https://registry.npmjs.org/turbo-freebsd-arm64/-/turbo-freebsd-arm64-1.1.10.tgz}
     cpu: [arm64]
     os: [freebsd]
     requiresBuild: true
@@ -5087,7 +4867,7 @@ packages:
     optional: true
 
   /turbo-linux-32@1.1.10:
-    resolution: {integrity: sha512-d1ILhEv2B/lOtpH4niFUKGb8YMU6G7gNCQCY6wG+SXARWJtDti+KiNWESechD5DycCIMgtE40XNy/c1US+LI5g==}
+    resolution: {integrity: sha512-d1ILhEv2B/lOtpH4niFUKGb8YMU6G7gNCQCY6wG+SXARWJtDti+KiNWESechD5DycCIMgtE40XNy/c1US+LI5g==, tarball: https://registry.npmjs.org/turbo-linux-32/-/turbo-linux-32-1.1.10.tgz}
     cpu: [ia32]
     os: [linux]
     requiresBuild: true
@@ -5095,7 +4875,7 @@ packages:
     optional: true
 
   /turbo-linux-64@1.1.10:
-    resolution: {integrity: sha512-8VEOiNJFNfUMZOyrN32wOcdT1Ik1nlIuTwkO4UeonAJhuWjTvdDLPCQkz0SECTu60q90l6nXCnNYtoZA6LrZzA==}
+    resolution: {integrity: sha512-8VEOiNJFNfUMZOyrN32wOcdT1Ik1nlIuTwkO4UeonAJhuWjTvdDLPCQkz0SECTu60q90l6nXCnNYtoZA6LrZzA==, tarball: https://registry.npmjs.org/turbo-linux-64/-/turbo-linux-64-1.1.10.tgz}
     cpu: [x64]
     os: [linux]
     requiresBuild: true
@@ -5103,7 +4883,7 @@ packages:
     optional: true
 
   /turbo-linux-arm64@1.1.10:
-    resolution: {integrity: sha512-ng3dEEL4SbBudF/UZzsOrfyJh8DLtTHawTepeS30FdtvYuVBXdCPc5BAhbawGoau/2AV4vrN3qzh9e3LCqD6Qg==}
+    resolution: {integrity: sha512-ng3dEEL4SbBudF/UZzsOrfyJh8DLtTHawTepeS30FdtvYuVBXdCPc5BAhbawGoau/2AV4vrN3qzh9e3LCqD6Qg==, tarball: https://registry.npmjs.org/turbo-linux-arm64/-/turbo-linux-arm64-1.1.10.tgz}
     cpu: [arm64]
     os: [linux]
     requiresBuild: true
@@ -5111,7 +4891,7 @@ packages:
     optional: true
 
   /turbo-linux-arm@1.1.10:
-    resolution: {integrity: sha512-qJ50K/s5MjpHjam+UdnK3GniEIv5XOBCZOGslgMMyz8V/q43vhB9BU9HQODclM89uQgsKxhs8Fue6ytOY4vIpg==}
+    resolution: {integrity: sha512-qJ50K/s5MjpHjam+UdnK3GniEIv5XOBCZOGslgMMyz8V/q43vhB9BU9HQODclM89uQgsKxhs8Fue6ytOY4vIpg==, tarball: https://registry.npmjs.org/turbo-linux-arm/-/turbo-linux-arm-1.1.10.tgz}
     cpu: [arm]
     os: [linux]
     requiresBuild: true
@@ -5119,7 +4899,7 @@ packages:
     optional: true
 
   /turbo-linux-mips64le@1.1.10:
-    resolution: {integrity: sha512-Jd4yH7ZEXCo0xmdJWZ6YsyqcNLyL5vRU3j5ZT+1W97YJCT+g+1on3/nd3rBVPzVz52lb8JIqgGtrBrnOO0AWJg==}
+    resolution: {integrity: sha512-Jd4yH7ZEXCo0xmdJWZ6YsyqcNLyL5vRU3j5ZT+1W97YJCT+g+1on3/nd3rBVPzVz52lb8JIqgGtrBrnOO0AWJg==, tarball: https://registry.npmjs.org/turbo-linux-mips64le/-/turbo-linux-mips64le-1.1.10.tgz}
     cpu: [mips64el]
     os: [linux]
     requiresBuild: true
@@ -5127,7 +4907,7 @@ packages:
     optional: true
 
   /turbo-linux-ppc64le@1.1.10:
-    resolution: {integrity: sha512-YF8+Oi53glqY29O1A7KJsHZxBzeVBobYFnPEXMt8vm+ouuo8kkbxXxShOP4h+33YGEkesTw/CTXtfDC1Xj1hDw==}
+    resolution: {integrity: sha512-YF8+Oi53glqY29O1A7KJsHZxBzeVBobYFnPEXMt8vm+ouuo8kkbxXxShOP4h+33YGEkesTw/CTXtfDC1Xj1hDw==, tarball: https://registry.npmjs.org/turbo-linux-ppc64le/-/turbo-linux-ppc64le-1.1.10.tgz}
     cpu: [ppc64]
     os: [linux]
     requiresBuild: true
@@ -5135,7 +4915,7 @@ packages:
     optional: true
 
   /turbo-windows-32@1.1.10:
-    resolution: {integrity: sha512-IO92tVTCtWVPPgcCjf8J7AmBEcwnjv1zPq7t9GFdqZ/6QA06atgPJNzQ/QvyzbzJgUsJUN2ByzwT04o4QUbrBQ==}
+    resolution: {integrity: sha512-IO92tVTCtWVPPgcCjf8J7AmBEcwnjv1zPq7t9GFdqZ/6QA06atgPJNzQ/QvyzbzJgUsJUN2ByzwT04o4QUbrBQ==, tarball: https://registry.npmjs.org/turbo-windows-32/-/turbo-windows-32-1.1.10.tgz}
     cpu: [ia32]
     os: [win32]
     requiresBuild: true
@@ -5143,7 +4923,7 @@ packages:
     optional: true
 
   /turbo-windows-64@1.1.10:
-    resolution: {integrity: sha512-g/RIXaVDaOgliHEJuOsuB6Tefwue9fXBH1/iIH9dmT3Z7lL0banGh+C10RW6Jd6PBPMoPBWir9PLYuzxoPcCNQ==}
+    resolution: {integrity: sha512-g/RIXaVDaOgliHEJuOsuB6Tefwue9fXBH1/iIH9dmT3Z7lL0banGh+C10RW6Jd6PBPMoPBWir9PLYuzxoPcCNQ==, tarball: https://registry.npmjs.org/turbo-windows-64/-/turbo-windows-64-1.1.10.tgz}
     cpu: [x64]
     os: [win32]
     requiresBuild: true
@@ -5187,7 +4967,7 @@ packages:
     dev: true
 
   /typescript@5.2.2:
-    resolution: {integrity: sha512-mI4WrpHsbCIcwT9cF4FZvr80QUeKvsUsUvKDoR+X/7XHQH98xYD8YHZg7ANtz2GtZt/CBq2QJ0thkGJMHfqc1w==}
+    resolution: {integrity: sha512-mI4WrpHsbCIcwT9cF4FZvr80QUeKvsUsUvKDoR+X/7XHQH98xYD8YHZg7ANtz2GtZt/CBq2QJ0thkGJMHfqc1w==, tarball: https://registry.npmjs.org/typescript/-/typescript-5.2.2.tgz}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
@@ -5204,7 +4984,7 @@ packages:
     dev: true
 
   /universalify@0.1.2:
-    resolution: {integrity: sha512-rBJeI5CXAlmy1pV+617WB9J63U6XcazHHF2f2dbJix4XzpUF0RS3Zbj0FGIOCAva5P/d/GBOYaACQ1w+0azUkg==}
+    resolution: {integrity: sha512-rBJeI5CXAlmy1pV+617WB9J63U6XcazHHF2f2dbJix4XzpUF0RS3Zbj0FGIOCAva5P/d/GBOYaACQ1w+0azUkg==, tarball: https://registry.npmjs.org/universalify/-/universalify-0.1.2.tgz}
     engines: {node: '>= 4.0.0'}
     dev: true
 
@@ -5414,7 +5194,7 @@ packages:
     dev: true
 
   /yargs-parser@16.1.0:
-    resolution: {integrity: sha512-H/V41UNZQPkUMIT5h5hiwg4QKIY1RPvoBV4XcjUbRM8Bk2oKqqyZ0DIEbTFZB0XjbtSPG8SAa/0DxCQmiRgzKg==}
+    resolution: {integrity: sha512-H/V41UNZQPkUMIT5h5hiwg4QKIY1RPvoBV4XcjUbRM8Bk2oKqqyZ0DIEbTFZB0XjbtSPG8SAa/0DxCQmiRgzKg==, tarball: https://registry.npmjs.org/yargs-parser/-/yargs-parser-16.1.0.tgz}
     dependencies:
       camelcase: 5.3.1
       decamelize: 1.2.0
@@ -5438,48 +5218,6 @@ packages:
     hasBin: true
     dependencies:
       apisauce: 1.1.5(debug@4.3.1)
-      app-module-path: 2.2.0
-      cli-table3: 0.5.1
-      colors: 1.3.3
-      cosmiconfig: 6.0.0
-      cross-spawn: 7.0.3
-      ejs: 2.7.4
-      enquirer: 2.3.4
-      execa: 3.4.0
-      fs-jetpack: 2.4.0
-      lodash.camelcase: 4.3.0
-      lodash.kebabcase: 4.1.1
-      lodash.lowercase: 4.3.0
-      lodash.lowerfirst: 4.3.1
-      lodash.pad: 4.5.1
-      lodash.padend: 4.6.1
-      lodash.padstart: 4.6.1
-      lodash.repeat: 4.1.0
-      lodash.snakecase: 4.1.1
-      lodash.startcase: 4.4.0
-      lodash.trim: 4.5.1
-      lodash.trimend: 4.5.1
-      lodash.trimstart: 4.5.1
-      lodash.uppercase: 4.3.0
-      lodash.upperfirst: 4.3.1
-      ora: 4.1.1
-      pluralize: 8.0.0
-      ramdasauce: 2.1.3
-      semver: 7.4.0
-      which: 2.0.2
-      yargs-parser: 16.1.0
-    transitivePeerDependencies:
-      - debug
-    dev: true
-
-  github.com/edgeandnode/gluegun/b34b9003d7bf556836da41b57ef36eb21570620a(debug@4.3.4):
-    resolution: {tarball: https://codeload.github.com/edgeandnode/gluegun/tar.gz/b34b9003d7bf556836da41b57ef36eb21570620a}
-    id: github.com/edgeandnode/gluegun/b34b9003d7bf556836da41b57ef36eb21570620a
-    name: gluegun
-    version: 4.3.1
-    hasBin: true
-    dependencies:
-      apisauce: 1.1.5(debug@4.3.4)
       app-module-path: 2.2.0
       cli-table3: 0.5.1
       colors: 1.3.3
