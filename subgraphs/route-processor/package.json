@@ -31,8 +31,8 @@
     "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 sushiswap/route-processor-ethereum"
   },
   "devDependencies": {
-    "@graphprotocol/graph-cli": "^0.70.0",
-    "@graphprotocol/graph-ts": "^0.27.0",
+    "@cerc-io/graph-cli": "0.32.0-watcher-ts-0.1.3",
+    "@graphprotocol/graph-ts": "npm:@cerc-io/graph-ts@0.27.0-watcher-ts-0.1.3",
     "abi": "workspace:*",
     "assemblyscript": "^0.19.20",
     "matchstick-as": "0.5.0",
